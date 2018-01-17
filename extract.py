@@ -1,7 +1,9 @@
 import re
+import sys
 import urllib.request
 
-strWord = "comprehension"
+strWord = "美丽"
+strWord = urllib.parse.quote(strWord)
 response = urllib.request.urlopen('http://open.iciba.com/huaci/dict.php?word=' + strWord)
 pattern = re.compile(r'<[^>]+>', re.S)
 
@@ -17,10 +19,9 @@ for line in response:
         strLine = strLine.replace("';", "")
         strLine = strLine.replace("</a>", "~^~")
         strLine = strLine.replace("</p>", "~^~")
+        strLine = strLine.replace("~^~；", "；")
         strLine = strLine.strip()
         strLine = pattern.sub('', strLine)
         strLine = ''.join(strLine.strip().split())
         strLine = strLine[0:len(strLine) - 3]
         print(strLine)
-        # for s in strLine.split('~^~'):
-        #     print(s)
