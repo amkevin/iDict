@@ -1,7 +1,7 @@
 import re
 import urllib.request
 
-strWord = "打"
+strWord = "斯"
 strWordUrl = urllib.parse.quote(strWord)
 response = urllib.request.urlopen('http://open.iciba.com/huaci/dict.php?word=' + strWordUrl)
 pattern = re.compile(r'<[^>]+>', re.S)
@@ -17,8 +17,8 @@ for line in response:
         matchStr = re.match(regexStr, strLine)
         while matchStr:
             matchWord = matchStr.group(1)
-            replaceWd = matchWord.replace('<', '[')
-            replaceWd = replaceWd.replace('>', ']')
+            replaceWd = matchWord.replace('<', '〈')
+            replaceWd = replaceWd.replace('>', '〉')
             strLine = strLine.replace(matchWord, replaceWd)
             matchStr = re.match(regexStr, strLine)
         # strLine = strLine.replace("<名>", "[名]")
@@ -38,4 +38,6 @@ for line in response:
         strLine = pattern.sub('', strLine)
         strLine = ''.join(strLine.strip().split())
         strLine = strLine[0:len(strLine) - 3]
+        strLine = strLine.replace('〈', '<')
+        strLine = strLine.replace('〉', '>')
         print(strLine)
