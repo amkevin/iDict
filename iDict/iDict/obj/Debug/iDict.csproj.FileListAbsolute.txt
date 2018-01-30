@@ -1,0 +1,35 @@
+c:\users\kevin\documents\visual studio 2015\Projects\iDict\iDict\bin\Debug\iDict.exe.config
+c:\users\kevin\documents\visual studio 2015\Projects\iDict\iDict\bin\Debug\iDict.exe
+c:\users\kevin\documents\visual studio 2015\Projects\iDict\iDict\bin\Debug\iDict.pdb
+c:\users\kevin\documents\visual studio 2015\Projects\iDict\iDict\obj\Debug\MainWindow.g.cs
+c:\users\kevin\documents\visual studio 2015\Projects\iDict\iDict\obj\Debug\App.g.cs
+c:\users\kevin\documents\visual studio 2015\Projects\iDict\iDict\obj\Debug\iDict_MarkupCompile.cache
+c:\users\kevin\documents\visual studio 2015\Projects\iDict\iDict\obj\Debug\iDict_MarkupCompile.lref
+c:\users\kevin\documents\visual studio 2015\Projects\iDict\iDict\obj\Debug\MainWindow.baml
+c:\users\kevin\documents\visual studio 2015\Projects\iDict\iDict\obj\Debug\iDict.g.resources
+c:\users\kevin\documents\visual studio 2015\Projects\iDict\iDict\obj\Debug\iDict.Properties.Resources.resources
+c:\users\kevin\documents\visual studio 2015\Projects\iDict\iDict\obj\Debug\iDict.csproj.GenerateResource.Cache
+c:\users\kevin\documents\visual studio 2015\Projects\iDict\iDict\obj\Debug\iDict.exe
+c:\users\kevin\documents\visual studio 2015\Projects\iDict\iDict\obj\Debug\iDict.pdb
+C:\iWorks\C#\WPF\iDict\iDict\bin\Debug\iDict.exe.config
+C:\iWorks\C#\WPF\iDict\iDict\obj\Debug\iDict.exe
+C:\iWorks\C#\WPF\iDict\iDict\obj\Debug\iDict.pdb
+C:\iWorks\C#\WPF\iDict\iDict\bin\Debug\iDict.exe.manifest
+C:\iWorks\C#\WPF\iDict\iDict\bin\Debug\iDict.application
+C:\iWorks\C#\WPF\iDict\iDict\bin\Debug\iDict.exe
+C:\iWorks\C#\WPF\iDict\iDict\bin\Debug\iDict.pdb
+C:\iWorks\C#\WPF\iDict\iDict\obj\Debug\MainWindow.g.cs
+C:\iWorks\C#\WPF\iDict\iDict\obj\Debug\Setting.g.cs
+C:\iWorks\C#\WPF\iDict\iDict\obj\Debug\App.g.cs
+C:\iWorks\C#\WPF\iDict\iDict\obj\Debug\iDict_MarkupCompile.cache
+C:\iWorks\C#\WPF\iDict\iDict\obj\Debug\iDict_MarkupCompile.lref
+C:\iWorks\C#\WPF\iDict\iDict\obj\Debug\MainWindow.baml
+C:\iWorks\C#\WPF\iDict\iDict\obj\Debug\Setting.baml
+C:\iWorks\C#\WPF\iDict\iDict\obj\Debug\iDict.g.resources
+C:\iWorks\C#\WPF\iDict\iDict\obj\Debug\iDict.Properties.Resources.resources
+C:\iWorks\C#\WPF\iDict\iDict\obj\Debug\iDict.csproj.GenerateResource.Cache
+C:\iWorks\C#\WPF\iDict\iDict\obj\Debug\iDict.exe.manifest
+C:\iWorks\C#\WPF\iDict\iDict\obj\Debug\iDict.application
+C:\iWorks\C#\WPF\iDict\iDict\obj\Debug\iDict.csprojResolveAssemblyReference.cache
+C:\iWorks\C#\WPF\iDict\iDict\obj\Debug\About.g.cs
+C:\iWorks\C#\WPF\iDict\iDict\obj\Debug\About.baml

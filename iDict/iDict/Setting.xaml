@@ -1,0 +1,19 @@
+﻿<Window x:Name="mSetting" x:Class="iDict.Setting"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:iDict"
+        mc:Ignorable="d"
+        Title="Setting" Height="93" Width="300" ResizeMode="NoResize" WindowStyle="ToolWindow" Deactivated="mSetting_Deactivated">
+    <Grid Margin="0,10,0,0">
+        <GroupBox Margin="10,-8,10,10" Header="System">
+            <StackPanel Orientation="Vertical">
+                <StackPanel Height="30" Orientation="Horizontal">
+                    <CheckBox x:Name="cbxAutoStart" VerticalAlignment="Center" Margin="20,0,0,0" Click="CheckBoxAutoStart_Click"></CheckBox>
+                    <Label Width="215" VerticalAlignment="Center" Margin="10,0,0,0" Content="Auto Start with Windows"></Label>
+                </StackPanel>
+            </StackPanel>
+        </GroupBox>
+    </Grid>
+</Window>

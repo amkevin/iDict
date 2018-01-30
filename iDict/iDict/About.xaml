@@ -1,0 +1,21 @@
+﻿<Window x:Name="mAbout" x:Class="iDict.About"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:iDict"
+        mc:Ignorable="d"
+        Title="About" Height="120" Width="300" WindowStyle="ToolWindow" ResizeMode="NoResize" Deactivated="mAbout_Deactivated">
+    <Grid>
+        <StackPanel HorizontalAlignment="Left" Height="75" Margin="10,10,0,0" VerticalAlignment="Top" Width="75">
+            <Image x:Name="image" Height="32" Source="iDict.ico" Margin="15,0,20,10" Width="32"/>
+        </StackPanel>
+        <StackPanel HorizontalAlignment="Left" Height="80" Margin="90,5,0,0" VerticalAlignment="Top" Width="194">
+            <TextBlock x:Name="textBlock0" TextWrapping="Wrap" Text="Name...:  iDcit" VerticalAlignment="Center"/>
+            <TextBlock x:Name="textBlock1" TextWrapping="Wrap" Text="Version:  1.0.0.0" VerticalAlignment="Center"/>
+            <TextBlock x:Name="textBlock2" TextWrapping="Wrap" Text="http://www.amkevin.com" VerticalAlignment="Center"/>
+            <TextBlock x:Name="textBlock3" TextWrapping="Wrap" Text="Create: 2018/01/16" Margin="0,18,0,0" HorizontalAlignment="Right" FontSize="10"/>
+        </StackPanel>
+
+    </Grid>
+</Window>

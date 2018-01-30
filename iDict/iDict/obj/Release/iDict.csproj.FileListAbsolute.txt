@@ -1,0 +1,40 @@
+C:\Users\Kevin\Documents\Visual Studio 2015\Projects\iDict\iDict\bin\Release\iDict.exe.config
+C:\Users\Kevin\Documents\Visual Studio 2015\Projects\iDict\iDict\bin\Release\iDict.exe
+C:\Users\Kevin\Documents\Visual Studio 2015\Projects\iDict\iDict\bin\Release\iDict.pdb
+C:\Users\Kevin\Documents\Visual Studio 2015\Projects\iDict\iDict\obj\Release\MainWindow.g.cs
+C:\Users\Kevin\Documents\Visual Studio 2015\Projects\iDict\iDict\obj\Release\App.g.cs
+C:\Users\Kevin\Documents\Visual Studio 2015\Projects\iDict\iDict\obj\Release\iDict_MarkupCompile.cache
+C:\Users\Kevin\Documents\Visual Studio 2015\Projects\iDict\iDict\obj\Release\iDict_MarkupCompile.lref
+C:\Users\Kevin\Documents\Visual Studio 2015\Projects\iDict\iDict\obj\Release\MainWindow.baml
+C:\Users\Kevin\Documents\Visual Studio 2015\Projects\iDict\iDict\obj\Release\iDict.g.resources
+C:\Users\Kevin\Documents\Visual Studio 2015\Projects\iDict\iDict\obj\Release\iDict.Properties.Resources.resources
+C:\Users\Kevin\Documents\Visual Studio 2015\Projects\iDict\iDict\obj\Release\iDict.csproj.GenerateResource.Cache
+C:\Users\Kevin\Documents\Visual Studio 2015\Projects\iDict\iDict\obj\Release\iDict.exe
+C:\Users\Kevin\Documents\Visual Studio 2015\Projects\iDict\iDict\obj\Release\iDict.pdb
+C:\Users\Kevin\Documents\Visual Studio 2015\Projects\iDict\iDict\bin\Release\iDict.exe.manifest
+C:\Users\Kevin\Documents\Visual Studio 2015\Projects\iDict\iDict\bin\Release\iDict.application
+C:\Users\Kevin\Documents\Visual Studio 2015\Projects\iDict\iDict\obj\Release\iDict.exe.manifest
+C:\Users\Kevin\Documents\Visual Studio 2015\Projects\iDict\iDict\obj\Release\iDict.application
+C:\Users\Kevin\Documents\Visual Studio 2015\Projects\iDict\iDict\obj\Release\iDict.AboutBox.resources
+C:\Users\Kevin\Documents\Visual Studio 2015\Projects\iDict\iDict\obj\Release\iDict.csprojResolveAssemblyReference.cache
+C:\iWorks\C#\WPF\iDict\iDict\bin\Release\iDict.exe.config
+C:\iWorks\C#\WPF\iDict\iDict\obj\Release\iDict.exe
+C:\iWorks\C#\WPF\iDict\iDict\obj\Release\iDict.pdb
+C:\iWorks\C#\WPF\iDict\iDict\bin\Release\iDict.exe.manifest
+C:\iWorks\C#\WPF\iDict\iDict\bin\Release\iDict.application
+C:\iWorks\C#\WPF\iDict\iDict\bin\Release\iDict.exe
+C:\iWorks\C#\WPF\iDict\iDict\bin\Release\iDict.pdb
+C:\iWorks\C#\WPF\iDict\iDict\obj\Release\MainWindow.g.cs
+C:\iWorks\C#\WPF\iDict\iDict\obj\Release\App.g.cs
+C:\iWorks\C#\WPF\iDict\iDict\obj\Release\iDict_MarkupCompile.cache
+C:\iWorks\C#\WPF\iDict\iDict\obj\Release\iDict_MarkupCompile.lref
+C:\iWorks\C#\WPF\iDict\iDict\obj\Release\MainWindow.baml
+C:\iWorks\C#\WPF\iDict\iDict\obj\Release\iDict.g.resources
+C:\iWorks\C#\WPF\iDict\iDict\obj\Release\iDict.Properties.Resources.resources
+C:\iWorks\C#\WPF\iDict\iDict\obj\Release\iDict.csproj.GenerateResource.Cache
+C:\iWorks\C#\WPF\iDict\iDict\obj\Release\iDict.exe.manifest
+C:\iWorks\C#\WPF\iDict\iDict\obj\Release\iDict.application
+C:\iWorks\C#\WPF\iDict\iDict\obj\Release\Setting.g.cs
+C:\iWorks\C#\WPF\iDict\iDict\obj\Release\Setting.baml
+C:\iWorks\C#\WPF\iDict\iDict\obj\Release\About.g.cs
+C:\iWorks\C#\WPF\iDict\iDict\obj\Release\About.baml
