@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Text;
 using System.Windows;
@@ -21,7 +21,7 @@ namespace iDict
         List<string> listDict = new List<string>();
         private NotifyIcon notifyIcon = null;
         private const Int32 WORDMAXNUM = 100;
-
+        private string strWordSave = "";
 
         #region main window
         /// <summary>
@@ -53,6 +53,7 @@ namespace iDict
                     this.listBox.Items.Clear();
                     listDict.Clear();
                     this.textBoxDetail.Text = "";
+                    strWordSave = "";
                 }
                 
             }
@@ -109,8 +110,6 @@ namespace iDict
                 }
             }
         }
-
-
         
 
         private void listBox_MouseLeftButtonUp(object sender, MouseButtonEventArgs e)
@@ -352,15 +351,22 @@ namespace iDict
         {
             string selectedText = System.Windows.Clipboard.GetText().Trim().ToLower();
             string selectedTextD = "";
-            if ((selectedText != "") && (!selectedText.StartsWith("http")) && (selectedText.Length <= 20) && (listDict.Count > 0))
+            if ((selectedText != "") && (!selectedText.StartsWith("http")) && (selectedText.Length <= 20))
             {
-                textBoxWord.Text = selectedText;
-                selectedTextD = selectedText + "\n" + textBoxDetail.Text.Trim();
-                if (selectedTextD.Length > 63)
+                if (selectedText != strWordSave)
                 {
-                    selectedTextD = selectedTextD.Substring(0, 62);
+                    strWordSave = selectedText;
+                    textBoxWord.Text = selectedText;
                 }
-                if (textBoxDetail.Text.Trim().Length == 0)
+                if (textBoxDetail.Text.Trim().Length != 0)
+                {
+                    selectedTextD = selectedText + "\n" + textBoxDetail.Text.Trim();
+                    if (selectedTextD.Length > 63)
+                    {
+                        selectedTextD = selectedTextD.Substring(0, 62);
+                    }
+                }
+                else
                 {
                     textBoxWord.Text = "";
                     selectedTextD = "iDict";
