@@ -352,7 +352,7 @@ namespace iDict
         {
             string selectedText = System.Windows.Clipboard.GetText().Trim().ToLower();
             string selectedTextD = "";
-            if ((selectedText != "") && (!selectedText.StartsWith("http")) && (selectedText.Length <= 20))
+            if ((selectedText != "") && (!selectedText.StartsWith("http")) && (selectedText.Length <= 20) && (listDict.Count > 0))
             {
                 textBoxWord.Text = selectedText;
                 selectedTextD = selectedText + "\n" + textBoxDetail.Text.Trim();
