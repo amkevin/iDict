@@ -83,5 +83,5 @@ for linef in file_in:
     file_ot.close()
     idx += 1
     print('we have grabbed ' + str(idx) + ' words.')
-    time.sleep(0.2)
+    time.sleep(0.1)
 file_in.close()
